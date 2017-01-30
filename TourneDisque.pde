@@ -38,7 +38,7 @@ void setup(){
   img6 = loadImage("fond.jpg");
   
   ac = new AudioContext();
-  //vérifier que les sons sont bien charger
+  //vérifier que les sons soient bien charger
   try{
     son1 = new SamplePlayer (ac, new Sample(sketchPath("") + "alg.mp3"));
     son2 = new SamplePlayer (ac, new Sample(sketchPath("") + "france.mp3"));
